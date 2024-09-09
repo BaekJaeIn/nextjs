@@ -19,3 +19,7 @@
 3. 리액트 핵심 - 연습 프로젝트 (03-investment-calculator)
 
 4. 리액트 컴포넌트 스타일링 (04-styling)
+
+**etc**
+
+04-styling 사용 시 vscode 확장 프로그램에서 Tailwind CSS IntelliSense 설치
