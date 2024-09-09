@@ -22,6 +22,8 @@
 
 5. 리액트 앱 디버깅하기 (05-debugging)
 
+6. Refs(참조) & Portals(포탈) 활용하기
+
 **etc**
 
 - 04-styling 사용 시 vscode 확장 프로그램에서 Tailwind CSS IntelliSense 설치
