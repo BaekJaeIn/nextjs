@@ -20,6 +20,10 @@
 
 4. 리액트 컴포넌트 스타일링 (04-styling)
 
+5. 리액트 앱 디버깅하기 (05-debugging)
+
 **etc**
 
-04-styling 사용 시 vscode 확장 프로그램에서 Tailwind CSS IntelliSense 설치
+- 04-styling 사용 시 vscode 확장 프로그램에서 Tailwind CSS IntelliSense 설치
+
+- 05-debugging 사용 시 크롬 확장 프로그램 react devTools 추가
