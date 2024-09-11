@@ -24,6 +24,8 @@
 
 6. Refs(참조) & Portals(포탈) 활용하기
 
+7. 연습 프로젝트 : 프로젝트 관리 앱 (컴포넌트, 상태, 참조 등 적용)
+
 **etc**
 
 - 04-styling 사용 시 vscode 확장 프로그램에서 Tailwind CSS IntelliSense 설치
