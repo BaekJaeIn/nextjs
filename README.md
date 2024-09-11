@@ -28,6 +28,8 @@
 
 8. 리액트의 컨텍스트 API & useReducer - 상태 관리 심화 단계 (08-advanced-state-management-wiht-context-usereducer)
 
+9. Side Effects 다루기 & useEffect() 훅 활용 (09-side-effects-useeffect)
+
 **etc**
 
 - 04-styling 사용 시 vscode 확장 프로그램에서 Tailwind CSS IntelliSense 설치
