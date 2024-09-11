@@ -22,9 +22,11 @@
 
 5. 리액트 앱 디버깅하기 (05-debugging)
 
-6. Refs(참조) & Portals(포탈) 활용하기
+6. Refs(참조) & Portals(포탈) 활용하기 (06-refs-portals)
 
-7. 연습 프로젝트 : 프로젝트 관리 앱 (컴포넌트, 상태, 참조 등 적용)
+7. 연습 프로젝트 : 프로젝트 관리 앱 (컴포넌트, 상태, 참조 등 적용) (07-project-management)
+
+8. 리액트의 컨텍스트 API & useReducer - 상태 관리 심화 단계 (08-advanced-state-management-wiht-context-usereducer)
 
 **etc**
 
