@@ -32,6 +32,8 @@
 
 10. 연습 프로젝트 : 퀴즈 앱 만들기 (10-react-quiz)
 
+11. 리액트와 최적화 테크닉 살펴보기 (A Look Behind The Scenes Of React & Optimization Techniques) (11-behind-the-scenes)
+
 **etc**
 
 - 04-styling 사용 시 vscode 확장 프로그램에서 Tailwind CSS IntelliSense 설치
