@@ -30,6 +30,8 @@
 
 9. Side Effects 다루기 & useEffect() 훅 활용 (09-side-effects-useeffect)
 
+10. 연습 프로젝트 : 퀴즈 앱 만들기 (10-react-quiz)
+
 **etc**
 
 - 04-styling 사용 시 vscode 확장 프로그램에서 Tailwind CSS IntelliSense 설치
