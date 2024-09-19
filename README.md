@@ -36,6 +36,8 @@
 
 12. 컴포넌트를 구축하는 다른 방법: 클래스 컴포넌트 (12-class-based-components)
 
+13. HTTP 요청 보내기(예: 데이터베이스 연결) (13-http-requests)
+
 **etc**
 
 - 04-styling 사용 시 vscode 확장 프로그램에서 Tailwind CSS IntelliSense 설치
@@ -43,3 +45,6 @@
 - 05-debugging 사용 시 크롬 확장 프로그램 react devTools 추가
 
 - 12-class-based-components는 클래스 기반 컴포넌트이므로 npm run dev대신 npm start로 로컬 실행
+
+- 13-http-requests 사용 시 node.js 설치 필요
+- cd backend, node app.js 명령어를 통해 backend를 실행시켜야 함
