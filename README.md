@@ -46,5 +46,6 @@
 
 - 12-class-based-components는 클래스 기반 컴포넌트이므로 npm run dev대신 npm start로 로컬 실행
 
-- 13-http-requests 사용 시 node.js 설치 필요
-- cd backend, node app.js 명령어를 통해 backend를 실행시켜야 함
+- 13-http-requests, 14-custom-hooks
+  nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 사용 시 node.js 설치 필요
+  nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- cd backend, node app.js 명령어를 통해 backend를 실행시켜야 함
