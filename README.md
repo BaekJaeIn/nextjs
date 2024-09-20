@@ -12,7 +12,7 @@
 
 **강의 내용**
 
-1. 리액트 핵심 - 컴포넌트, JSX, 속성, 상태 등 (01-practice)
+1. **리액트 핵심 - 컴포넌트, JSX, 속성, 상태 등** (01-practice)
 
 2. 리액트 핵심 - 심화 단계 (02-tic-tac-toe)
 
@@ -42,6 +42,8 @@
 
 15. 양식 및 사용자 입력 작업 (15-forms-user-input)
 
+16. 연습 프로젝트 : 음식 주문 앱에 HTTP 및 양식 추가 (16-food-order)
+
 **etc**
 
 - 04-styling 사용 시 vscode 확장 프로그램에서 Tailwind CSS IntelliSense 설치
@@ -50,6 +52,6 @@
 
 - 12-class-based-components는 클래스 기반 컴포넌트이므로 npm run dev대신 npm start로 로컬 실행
 
-- 13-http-requests, 14-custom-hooks
+- 13-http-requests, 14-custom-hooks, 16-food-order
   - 사용 시 node.js 설치 필요
   - cd backend, node app.js 명령어를 통해 backend를 실행시켜야 함
