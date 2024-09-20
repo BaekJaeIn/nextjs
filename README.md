@@ -1,16 +1,18 @@
 # nextjs 실습 파일
 
+## Udemy에서 공부한 react, nextjs 실습 파일을 보관하는 repository입니다.
+
 ---
 
-### Udemy에서 공부한 react, nextjs 실습 파일을 보관하는 repository입니다.
-
-**로컬 서버 실행 방법**
+### 로컬 서버 실행 방법
 
 `npm install`
 
 `npm run dev`
 
-**강의 내용**
+---
+
+### 강의 내용
 
 1. **리액트 핵심 - 컴포넌트, JSX, 속성, 상태 등** (01-practice)
 
@@ -46,7 +48,7 @@
 
 ---
 
-**etc**
+### etc
 
 - 04-styling 사용 시 vscode 확장 프로그램에서 Tailwind CSS IntelliSense 설치
 
