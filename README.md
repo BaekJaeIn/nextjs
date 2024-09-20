@@ -6,9 +6,9 @@
 
 **로컬 서버 실행 방법**
 
-> npm install
+`npm install`
 
-> npm run dev
+`npm run dev`
 
 **강의 내용**
 
@@ -56,4 +56,4 @@
 
 - 13-http-requests, 14-custom-hooks, 16-food-order
   - 사용 시 node.js 설치 필요
-  - cd backend, node app.js 명령어를 통해 backend를 실행시켜야 함
+  - `cd backend`, `node app.js` 명령어를 통해 backend를 실행시켜야 함
