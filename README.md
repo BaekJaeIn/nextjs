@@ -46,6 +46,8 @@
 
 16. **연습 프로젝트 : 음식 주문 앱에 HTTP 및 양식 추가** (16-food-order)
 
+17. **리덕스에 뛰어들기 (컨텍스트 API의 대안)** (17-redux)
+
 ---
 
 ### etc
@@ -54,7 +56,9 @@
 
 - 05-debugging 사용 시 크롬 확장 프로그램 react devTools 추가
 
-- 12-class-based-components는 클래스 기반 컴포넌트이므로 npm run dev대신 npm start로 로컬 실행
+- 12-class-based-components, 17-redux
+
+  - npm run dev대신 npm start로 로컬 실행
 
 - 13-http-requests, 14-custom-hooks, 16-food-order
   - 사용 시 node.js 설치 필요
