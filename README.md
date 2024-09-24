@@ -48,6 +48,8 @@
 
 17. **리덕스에 뛰어들기 (컨텍스트 API의 대안)** (17-redux)
 
+18. **고급 리덕스** (18-redux-advaced)
+
 ---
 
 ### etc
@@ -56,7 +58,7 @@
 
 - 05-debugging 사용 시 크롬 확장 프로그램 react devTools 추가
 
-- 12-class-based-components, 17-redux
+- 12-class-based-components, 17-redux, 18-redux-advanced
 
   - npm run dev대신 npm start로 로컬 실행
 
