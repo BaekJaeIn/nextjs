@@ -50,6 +50,8 @@
 
 18. **고급 리덕스** (18-redux-advaced)
 
+19. **리액트 라우터가 있는 SPA 다중 페이지 구축하기** (19-react-router-spa)
+
 ---
 
 ### etc
@@ -58,7 +60,7 @@
 
 - 05-debugging 사용 시 크롬 확장 프로그램 react devTools 추가
 
-- 12-class-based-components, 17-redux, 18-redux-advanced
+- 12-class-based-components, 17-redux, 18-redux-advanced, 19-react-router-spa
 
   - npm run dev대신 npm start로 로컬 실행
 
