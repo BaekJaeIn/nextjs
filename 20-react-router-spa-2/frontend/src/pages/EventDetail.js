@@ -1,12 +1,34 @@
-import { useParams } from "react-router-dom";
+import { json, useRouteLoaderData, redirect } from "react-router-dom";
+import EventItem from "../components/EventItem";
 
 export default function EventDetailPage() {
-  const params = useParams();
+  const data = useRouteLoaderData("event-detail");
+  return <EventItem event={data.event} />;
+}
 
-  return (
-    <>
-      <h1>이벤트 상세 페이지</h1>
-      <p>이벤트 ID : {params.eventId}</p>
-    </>
-  );
+export async function loader({ request, params }) {
+  const id = params.eventId;
+  const response = await fetch(`http://localhost:8080/events/${id}`);
+
+  if (!response.ok) {
+    throw json(
+      { message: "선택된 이벤트의 세부정보를 가져올 수 없습니다." },
+      { status: 500 }
+    );
+  } else {
+    return response;
+  }
+}
+
+export async function action({ params, request }) {
+  const eventId = params.eventId;
+  const response = await fetch(`http://localhost:8080/events/${eventId}`, {
+    method: request.method,
+  });
+
+  if (!response.ok) {
+    throw json({ message: "이벤트를 삭제할 수 없습니다." }, { status: 500 });
+  }
+
+  return redirect("/events");
 }
