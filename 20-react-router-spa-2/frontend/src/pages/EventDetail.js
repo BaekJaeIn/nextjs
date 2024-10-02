@@ -1,13 +1,33 @@
-import { json, useRouteLoaderData, redirect } from "react-router-dom";
+import {
+  json,
+  useRouteLoaderData,
+  redirect,
+  defer,
+  Await,
+} from "react-router-dom";
 import EventItem from "../components/EventItem";
+import EventsList from "../components/EventsList";
+import { Suspense } from "react";
 
 export default function EventDetailPage() {
-  const data = useRouteLoaderData("event-detail");
-  return <EventItem event={data.event} />;
+  const { event, events } = useRouteLoaderData("event-detail");
+  return (
+    <>
+      <Suspense fallback={<p style={{ textAlign: "center" }}>로딩중...</p>}>
+        <Await resolve={event}>
+          {(loadedevent) => <EventItem event={loadedevent} />}
+        </Await>
+      </Suspense>
+      <Suspense fallback={<p style={{ textAlign: "center" }}>로딩중...</p>}>
+        <Await resolve={events}>
+          {(loadedEvents) => <EventsList events={loadedEvents} />}
+        </Await>
+      </Suspense>
+    </>
+  );
 }
 
-export async function loader({ request, params }) {
-  const id = params.eventId;
+async function loadEvent(id) {
   const response = await fetch(`http://localhost:8080/events/${id}`);
 
   if (!response.ok) {
@@ -16,8 +36,32 @@ export async function loader({ request, params }) {
       { status: 500 }
     );
   } else {
-    return response;
+    const resData = await response.json();
+    return resData.event;
   }
+}
+
+async function loadEvents() {
+  const response = await fetch("http://localhost:8080/events");
+  if (!response.ok) {
+    return json(
+      { message: "이벤트를 가져올 수 없습니다." },
+      {
+        status: 500,
+      }
+    );
+  } else {
+    const resData = await response.json();
+    return resData.events;
+  }
+}
+
+export async function loader({ request, params }) {
+  const id = params.eventId;
+  return defer({
+    event: await loadEvent(id),
+    events: loadEvents(),
+  });
 }
 
 export async function action({ params, request }) {
