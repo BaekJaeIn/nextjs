@@ -54,6 +54,8 @@
 
 20. **리액트앱 인증 추가하기** (20-react-router-spa-2)
 
+21. **리액트 앱 배포하기** (21-deploying-react-apps-updated)
+
 ---
 
 ### etc
@@ -62,9 +64,9 @@
 
 - 05-debugging 사용 시 크롬 확장 프로그램 react devTools 추가
 
-- 12-class-based-components, 17-redux, 18-redux-advanced, 19-react-router-spa-1, 20-react-router-spa-2
+- 12-class-based-components, 17-redux, 18-redux-advanced, 19-react-router-spa-1, 20-react-router-spa-2, 21-deploying-react-apps-updated
 
-  - npm run dev대신 npm start로 로컬 실행
+  - `npm run dev`대신 `npm start`로 로컬 실행
 
 - 13-http-requests, 14-custom-hooks, 16-food-order
 
@@ -72,4 +74,7 @@
   - `cd backend`, `node app.js` 명령어를 통해 backend를 실행시켜야 함
 
 - 20-react-router-spa-2
+
   - `cd backend`, `npm install`, `npm start` 명령어를 통해 backend를 실행시켜야 함
+
+- 배포방법이 궁금할때는 **385. 배포 예시** 강의 참조
