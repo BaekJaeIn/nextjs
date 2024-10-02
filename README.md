@@ -52,6 +52,8 @@
 
 19. **리액트 라우터가 있는 SPA 다중 페이지 구축하기** (19-react-router-spa-1, 20-react-router-spa-2)
 
+20. **리액트앱 인증 추가하기** (20-react-router-spa-2)
+
 ---
 
 ### etc
