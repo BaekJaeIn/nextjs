@@ -56,6 +56,8 @@
 
 21. **리액트 앱 배포하기** (21-deploying-react-apps-updated)
 
+22. **리액트 쿼리 /Tanstack 쿼리: 간단하게 HTTP 요청 처리** (22-react-query)
+
 ---
 
 ### etc
@@ -73,7 +75,7 @@
   - 사용 시 node.js 설치 필요
   - `cd backend`, `node app.js` 명령어를 통해 backend를 실행시켜야 함
 
-- 20-react-router-spa-2
+- 20-react-router-spa-2, 22-react-query
 
   - `cd backend`, `npm install`, `npm start` 명령어를 통해 backend를 실행시켜야 함
 
