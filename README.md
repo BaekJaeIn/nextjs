@@ -58,6 +58,8 @@
 
 22. **리액트 쿼리 /Tanstack 쿼리: 간단하게 HTTP 요청 처리** (22-react-query)
 
+23. **(Pretty deep dive) Next.js 소개** (23-nextjs-basics, 24-nextjs-foodies)
+
 ---
 
 ### etc
