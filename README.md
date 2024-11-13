@@ -81,4 +81,8 @@
 
   - `cd backend`, `npm install`, `npm start` 명령어를 통해 backend를 실행시켜야 함
 
+- 24-nextjs-foodies
+
+  - `npm install better-sqlite3` 명령어를 통해 SQLite 데이터베이스 설치해야 함
+
 - 배포방법이 궁금할때는 **385. 배포 예시** 강의 참조
