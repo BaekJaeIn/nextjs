@@ -58,7 +58,7 @@
 
 22. **리액트 쿼리 /Tanstack 쿼리: 간단하게 HTTP 요청 처리** (22-react-query)
 
-23. **(Pretty deep dive) Next.js 소개** (23-nextjs-basics, 24-nextjs-foodies)
+23. **(Pretty deep dive) Next.js 소개** (23-nextjs-basics, 24-nextjs-foodies, 25-nextjs-page-router)
 
 ---
 
@@ -84,5 +84,6 @@
 - 24-nextjs-foodies
 
   - `npm install better-sqlite3` 명령어를 통해 SQLite 데이터베이스 설치해야 함
+  - 배포 할때는 `npm run build`, `npm start` 명령어를 통해 배포 함
 
 - 배포방법이 궁금할때는 **385. 배포 예시** 강의 참조
