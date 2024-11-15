@@ -64,7 +64,7 @@
 
 ### 배포
 
-- [21-deploying-react-apps-updated](https://21-deploying-react-apps-updated.vercel.app/){:target="\_blank"}
+- <a href="https://21-deploying-react-apps-updated.vercel.app/" target="_blank">21-deploying-react-apps-updated</a>
 
 - [22-react-query](https://22-react-query.vercel.app/)
 
