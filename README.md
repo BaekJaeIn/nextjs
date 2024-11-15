@@ -64,7 +64,47 @@
 
 ### 배포
 
-- <a href="https://21-deploying-react-apps-updated.vercel.app/" target="_blank">21-deploying-react-apps-updated</a>
+- [01-practice](https://01-practice.vercel.app/)
+
+- [02-tic-tac-toe](https://02-tic-tac-toe.vercel.app/)
+
+- [03-investment-calculator](https://03-investment-calculator.vercel.app/)
+
+- [04-styling](https://04-styling.vercel.app/)
+
+- [05-debugging](https://05-debugging.vercel.app/)
+
+- [06-refs-portals](https://06-refs-portals.vercel.app/)
+
+- [07-project-management](https://07-project-management.vercel.app/)
+
+- [08-advanced-state-management-with-context-usereducer](https://08-advanced-state-management-with-context-usereducer.vercel.app/)
+
+- [09-side-effects-useeffect](https://09-side-effects-useeffect.vercel.app/)
+
+- [10-react-quiz](https://10-react-quiz.vercel.app/)
+
+- [11-behind-the-scenes](https://11-behind-the-scenes.vercel.app/)
+
+- [12-class-based-components](https://12-class-based-components.vercel.app/)
+
+- [13-http-requests](https://13-http-requests.vercel.app/)
+
+- [14-custom-hooks](https://14-custom-hooks.vercel.app/)
+
+- [15-forms-user-input](https://15-forms-user-input.vercel.app/)
+
+- [16-food-order](https://16-food-order.vercel.app/)
+
+- [17-redux](https://17-redux.vercel.app/)
+
+- [18-redux-advanced](https://18-redux-advanced.vercel.app/)
+
+- [19-react-router-spa-1](https://19-react-router-spa-1.vercel.app/)
+
+- [20-react-router-spa-2](https://20-react-router-spa-2.vercel.app/)
+
+- [21-deploying-react-apps-updated](https://21-deploying-react-apps-updated.vercel.app/)
 
 - [22-react-query](https://22-react-query.vercel.app/)
 
