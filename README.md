@@ -64,13 +64,17 @@
 
 ### 배포
 
-1. [23-nextjs-basics](https://23-nextjs-basics.vercel.app/)
+- [21-deploying-react-apps-updated](https://21-deploying-react-apps-updated.vercel.app/){:target="\_blank"}
 
-2. [24-nextjs-foodies](https://24-nextjs-foodies.vercel.app/)
+- [22-react-query](https://22-react-query.vercel.app/)
 
-3. [25-nextjs-page-router](https://25-nextjs-page-router.vercel.app/)
+- [23-nextjs-basics](https://23-nextjs-basics.vercel.app/)
 
-4. [26-nextjs-bigger-project](https://26-nextjs-bigger-project.vercel.app/)
+- [24-nextjs-foodies](https://24-nextjs-foodies.vercel.app/)
+
+- [25-nextjs-page-router](https://25-nextjs-page-router.vercel.app/)
+
+- [26-nextjs-bigger-project](https://26-nextjs-bigger-project.vercel.app/)
 
 ---
 
