@@ -62,6 +62,18 @@
 
 ---
 
+### 배포
+
+1. [23-nextjs-basics](https://23-nextjs-basics.vercel.app/)
+
+2. [24-nextjs-foodies](https://24-nextjs-foodies.vercel.app/)
+
+3. [25-nextjs-page-router](https://25-nextjs-page-router.vercel.app/)
+
+4. [26-nextjs-bigger-project](https://26-nextjs-bigger-project.vercel.app/)
+
+---
+
 ### etc
 
 - 04-styling 사용 시 vscode 확장 프로그램에서 Tailwind CSS IntelliSense 설치
